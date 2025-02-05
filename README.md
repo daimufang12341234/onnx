@@ -7,14 +7,17 @@
 
 ## 目录结构
 V1.0/
-├── pt/ # 模型文件目录
-│ ├── A.onnx # A型焊缝检测模型
-│ ├── C.onnx # C型焊缝检测模型
-│ └── D.onnx # D型焊缝检测模型
-├── test/ # 存放待检测的图片
-├── multi_model_detector.py # 主程序文件
-├── README.md # 说明文档
-└── requirements.txt # 环境依赖
+│
+├─pt/                      # 模型文件目录
+│  ├─A.onnx               # A型焊缝检测模型
+│  ├─C.onnx               # C型焊缝检测模型
+│  └─D.onnx               # D型焊缝检测模型
+│
+├─test/                    # 存放待检测的图片
+│
+├─multi_model_detector.py  # 主程序文件
+├─README.md               # 说明文档
+└─requirements.txt        # 环境依赖
 
 ## 使用方法
 1. 安装环境依赖

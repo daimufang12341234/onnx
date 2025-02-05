@@ -1,13 +1,5 @@
 # 多模型目标检测demo
-    目前可处理的焊缝为：
-        A型焊缝
-        C型焊缝
-        D型焊缝
-    （注意：甲板片焊缝检测可能效果不佳，数据集还未完成标注）
-    数据集数量：
-        A型焊缝：1000张
-        C型焊缝：848张
-        D型焊缝：1044张
+
 
 ## 环境要求
 - Python版本：3.7 ~ 3.10
@@ -15,14 +7,14 @@
 
 ## 目录结构
 V1.0/
-├── pt/
-│ ├── A.onnx
-│ ├── C.onnx
-│ └── D.onnx
+├── pt/ # 模型文件目录
+│ ├── A.onnx # A型焊缝检测模型
+│ ├── C.onnx # C型焊缝检测模型
+│ └── D.onnx # D型焊缝检测模型
 ├── test/ # 存放待检测的图片
-├── multi_model_detector.py
-├── README.md
-└── requirements.txt（环境依赖）
+├── multi_model_detector.py # 主程序文件
+├── README.md # 说明文档
+└── requirements.txt # 环境依赖
 
 ## 使用方法
 1. 安装环境依赖

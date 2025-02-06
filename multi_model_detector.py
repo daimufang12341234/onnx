@@ -459,8 +459,15 @@ if __name__ == "__main__":
             'point_colors': [(0, 255, 0), (255, 0, 0)]  # 2个关键点
         },
         {
-            'model_path': r"pt/D.onnx",  # 新增的模型
+            'model_path': r"pt/D.onnx",
             'class_names': {0: 'D'},
+            'confidence_thres': 0.7,
+            'iou_thres': 0.45,
+            'point_colors': [(0, 255, 0), (255, 0, 0)]  # 2个关键点
+        },
+        {
+            'model_path': r"pt/JB.onnx",  # 新增的JB模型
+            'class_names': {0: 'JB'},
             'confidence_thres': 0.7,
             'iou_thres': 0.45,
             'point_colors': [(0, 255, 0), (255, 0, 0)]  # 2个关键点
